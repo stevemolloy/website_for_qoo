@@ -1,6 +1,16 @@
 extends layout
 
-block content
-  div.container
-    h1= title
-    p Welcome to #{title}
+block content      
+  div.cover-container.d-flex.w-100.h-100.p-3.mx-auto.flex-column
+    header.masthead.mb-auto
+      div.inner
+        h3.masthead-brand Cover
+        
+    main.inner.cover
+      h1.cover-heading QooNet
+      p.lead Welcome to QooNet
+    
+    footer.mastfoot.mt-auto
+      div.inner
+        p Design by 
+          a(href='https://twitter.com/sdmolloy') @sdmolloy
