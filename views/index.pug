@@ -1,29 +1,15 @@
-extends layout
+extends header_footer
 
-block content      
-  div.cover-container.d-flex.w-100.h-100.p-3.mx-auto.flex-column
-    header.masthead.mb-auto
-      div.inner
-        h3.masthead-brand QooNet
-        nav.nav.nav-masthead.justify-content-center
-          a.nav-link(href="#") Home
-          a.nav-link(href="#") Features
-          a.nav-link(href="#") Contact
-
-    main.inner.cover
-      h1.cover-heading QooNet
-      p.lead.
-        Digital control is at the heart of all modern R&D activities, 
-        yet it remains opaque and excessively complex to all but the most 
-        expert developers.
-      p.lead.
-        QooNet takes it out of the hands of the experts.
-      p.lead.
-        Qoonet gives controls back to you.
-      p.lead
-        a.btn.btn-lg.btn-secondary(href="#") Read more
-
-    footer.mastfoot.mt-auto
-      div.inner
-        p Design by 
-          a(href='https://twitter.com/sdmolloy') @sdmolloy
+block main_content
+  main.inner.cover
+    h1.cover-heading QooNet
+    p.lead.
+      Digital control is at the heart of all modern R&D activities, 
+      yet it remains opaque and excessively complex to all but the most 
+      expert developers.
+    p.lead.
+      QooNet takes it out of the hands of the experts.
+    p.lead.
+      Qoonet gives controls back to you.
+    p.lead
+      a.btn.btn-lg.btn-secondary(href="read_more") Read more
