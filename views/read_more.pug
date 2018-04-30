@@ -1,15 +1,33 @@
-extends header_footer_front
+extends header_footer_main
 
 block main_content
-  main
-    h1 QooNet
-    p.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sapien purus. Ut aliquet, enim eget euismod mattis, erat turpis commodo nisl, sed fermentum enim sem sit amet turpis. Proin tempus purus a ultrices efficitur. Maecenas nec maximus leo, vel pulvinar mi. Aenean id magna tincidunt, iaculis ex eget, luctus mi. Sed felis leo, vehicula nec rhoncus sit amet, fermentum nec massa. Sed est justo, pharetra non eros at, hendrerit elementum nisl.
-    p.
-      Duis eu nibh fermentum, sagittis erat vitae, porta magna. Etiam condimentum sem lacus, at lacinia diam vehicula ut. Vivamus in eros dolor. Fusce interdum viverra diam at laoreet. Sed dapibus laoreet lacus rhoncus rutrum. Proin sed dui arcu. Aenean quis dapibus tortor, eu molestie eros. Quisque in augue dui. Pellentesque venenatis consectetur velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    p.
-      Vivamus nec pretium lectus. Curabitur non fermentum orci, vitae varius mi. Morbi finibus, odio sed commodo tristique, enim dolor placerat justo, quis varius augue arcu et tortor. Cras vitae dolor id sem interdum varius. Proin vitae risus posuere, iaculis erat et, interdum augue. Suspendisse at libero dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi convallis tincidunt sem, ut tincidunt tellus volutpat eget. Fusce a gravida eros, non varius nunc. Ut at leo eget quam tristique gravida. Integer ullamcorper leo ac faucibus aliquam.
-    p.
-      Suspendisse iaculis urna eu ante scelerisque, at pellentesque sem posuere. Pellentesque efficitur ligula eget est cursus, vitae blandit diam lobortis. Fusce euismod arcu ut ipsum ullamcorper, nec interdum sapien convallis. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum aliquam augue sit amet hendrerit. Quisque convallis accumsan convallis. Vivamus convallis eget sem a posuere. Suspendisse non diam elit.
-    p.
-      Vivamus tempor, diam non varius pulvinar, nisl risus gravida nisl, nec interdum tellus orci id nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eleifend sagittis dolor, suscipit lacinia libero. Maecenas tristique massa est, sollicitudin blandit est gravida scelerisque. Morbi a eleifend mi. Fusce lacus sapien, mattis eu neque nec, imperdiet pellentesque orci. Curabitur eget placerat augue, id fringilla dolor. Aliquam in libero ac enim laoreet vehicula et a ante. Praesent ac turpis interdum, consequat magna viverra, interdum metus. Ut venenatis malesuada posuere. Phasellus ut metus a elit dapibus ultrices nec sit amet diam. Mauris mollis elit quis rutrum finibus. Integer id sollicitudin nisi. 
+  main(role="main")
+    div.jumbotron.jumbotron-fluid
+      div.container
+        h1.display-4 Digital control with Qoonet
+        p.lead Blah blah blah
+        
+    div.container.marketing
+      div.row.featurette
+        div.col-md-7
+          h2.featurette-heading First featurette heading. 
+            span.text-muted It'll blow your mind.
+          p.lead.
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula 
+            porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque 
+            nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        div.col-md-5
+          img.featurette-image.img-fluid.mx-auto(data-src="holder.js/300x300/auto", alt="Generic placeholder image")
+
+      hr.featurette-divider
+
+      div.row.featurette
+        div.col-md-7.order-md-2
+          h2.featurette-heading Oh yeah, it's that good. 
+            span.text-muted See for yourself.
+          p.lead.
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula 
+            porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque 
+            nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        div.col-md-5
+          img.featurette-image.img-fluid.mx-auto(data-src="holder.js/300x300/auto", alt="Generic placeholder image")
