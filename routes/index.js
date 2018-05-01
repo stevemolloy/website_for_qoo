@@ -11,4 +11,9 @@ router.get('/read_more', function(req, res, next) {
   res.render('read_more');
 });
 
+/* GET contact page. */
+router.get('/contact', function(req, res, next) {
+  res.render('contact');
+});
+
 module.exports = router;

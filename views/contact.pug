@@ -1,0 +1,45 @@
+extends header_footer_main
+
+block main_content
+  main(role="main")
+    div.jumbotron.jumbotron-fluid
+      div.container
+        h1.display-4 Qoonet
+        p.lead An Open Source IoT Control System
+
+
+    section(id="contact")
+      div.container
+        h3.text-center.text-uppercase contact us
+        p.text-center.w-75.m-auto.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris 
+          interdum purus at sem ornare sodales. Morbi leo nulla, pharetra 
+          vel felis nec, ullamcorper condimentum quam.
+        div.row.justify-content-center
+          div.col-sm-12.col-md-6.col-lg-3.my-5
+            div.card.border-0
+              div.card-body.text-center
+                i.fas.fa-at.fa-5x.mb-3(aria-hidden="true")
+                h4.text-uppercase.mb-5 mail
+                p
+                  a(href='mailto:david.mcginnis@thequantumguys.se') david.mcginnis@thequantumguys.se
+          div.col-sm-12.col-md-6.col-lg-3.my-5
+            div.card.border-0
+              div.card-body.text-center
+                i.fab.fa-github.fa-5x.mb-3(aria-hidden="true")
+                h4.text-uppercase.mb-5 source code
+                p
+                  a(href='https://github.com/QooNet') https://github.com/QooNet
+          div.col-sm-12.col-md-6.col-lg-3.my-5
+            div.card.border-0
+              div.card-body.text-center
+                i.fa.fa-map-marker.fa-5x.mb-3(aria-hidden="true")
+                h4.text-uppercase.mb-5 real-world location
+                address Lund, Sweden
+          div.col-sm-12.col-md-6.col-lg-3.my-5
+            div.card.border-0
+              div.card-body.text-center
+                i.fa.fa-globe.fa-5x.mb-3(aria-hidden="true")
+                h4.text-uppercase.mb-5 web
+                p
+                  a(href='http://qoonet.org') http://qoonet.org
