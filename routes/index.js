@@ -16,11 +16,6 @@ router.get('/contact', function(req, res, next) {
   res.render('contact');
 });
 
-/* GET tutorial page. */
-router.get('/tutorial', function(req, res, next) {
-  res.render('tutorial');
-});
-
 /* GET features page. */
 router.get('/features', function(req, res, next) {
   res.render('features');
