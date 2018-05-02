@@ -1,0 +1,8 @@
+mixin make_card(heading, title, maintext, imgfile)
+  div.card
+    h3.card-header= heading
+    img.card-img-top(src=imgfile, alt="NodeRed")
+    div.card-body
+      h5.card-title= title
+      p.card-text= maintext
+      a.btn.btn-primary(href="#") Read Tutorial
