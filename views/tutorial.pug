@@ -2,49 +2,46 @@ extends header_footer_main
 
 block main_content
   div.container
-    div.row
-      div.col-sm
-        div.card
-          h3.card-header Setting up
-          img.card-img-top(src="images/beagleboneblack.jpg", alt="BeagleBone Black")
-          div.card-body
-            h5.card-title Prep a BeagleBone Black for QooNet
-            p.card-text.
-              A freshly unboxed BeagleBone Black takes a little bit of work to 
-              make it ready for use. In this tutorial we walk you through the steps
-              you need to take.
-            a.btn.btn-primary(href="#") Read Tutorial
+    div.card-columns
+      div.card
+        h3.card-header Setting up
+        img.card-img-top(src="images/beagleboneblack.jpg", alt="BeagleBone Black")
+        div.card-body
+          h5.card-title Prep a BeagleBone Black for QooNet
+          p.card-text.
+            A freshly unboxed BeagleBone Black takes a little bit of work to 
+            make it ready for use. In this tutorial we walk you through the steps
+            you need to take.
+          a.btn.btn-primary(href="#") Read Tutorial
 
-      div.col-sm
-        div.card
-          h3.card-header Setting up
-          img.card-img-top(src="images/shiftrio.png", alt="Shiftr.io")
-          div.card-body
-            h5.card-title MQTT with shiftr.io
-            p.card-text.
-              QooNet uses MQTT as the communications layer. An awesome cloud-based 
-              solution for this is #[a(href="https://shiftr.io/") shiftr.io]. In this 
-              tutorial we show you how to get it up and running.
-            a.btn.btn-primary(href="#") Read Tutorial
+      div.card
+        h3.card-header Setting up
+        img.card-img-top(src="images/shiftrio.png", alt="Shiftr.io")
+        div.card-body
+          h5.card-title MQTT with shiftr.io
+          p.card-text.
+            QooNet uses MQTT as the communications layer. An awesome cloud-based 
+            solution for this is #[a(href="https://shiftr.io/") shiftr.io]. In this 
+            tutorial we show you how to get it up and running.
+          a.btn.btn-primary(href="#") Read Tutorial
 
-      div.col-sm
-        div.card
-          h3.card-header A test device
-          img.card-img-top(src="images/demoBreadBoard.png", alt="Test device")
-          div.card-body
-            h5.card-title Test Device
-            p.card-text.
-              QooNet is for controlling hardware, so here we build a small test 
-              device to allow us to experiment with Qoonet's capabilities.
-            a.btn.btn-primary(href="#") Read Tutorial
+      div.card
+        h3.card-header A test device
+        img.card-img-top(src="images/demoBreadBoard.png", alt="Test device")
+        div.card-body
+          h5.card-title Test Device
+          p.card-text.
+            QooNet is for controlling hardware, so here we build a small test 
+            device to allow us to experiment with Qoonet's capabilities.
+          a.btn.btn-primary(href="#") Read Tutorial
 
-      div.col-sm
-        div.card
-          h3.card-header Device control
-          img.card-img-top(src="images/node-red-hexagon.png", alt="NodeRed")
-          div.card-body
-            h5.card-title QooNet controller on BeagleBone Black
-            p.card-text.
-              Building the Qoonet device controller. This is the first tutorial 
-              to use NodeRed.
-            a.btn.btn-primary(href="#") Read Tutorial
+      div.card
+        h3.card-header Device control
+        img.card-img-top(src="images/node-red-hexagon.png", alt="NodeRed")
+        div.card-body
+          h5.card-title QooNet controller on BeagleBone Black
+          p.card-text.
+            Building the Qoonet device controller. This is the first tutorial 
+            to use NodeRed.
+          a.btn.btn-primary(href="#") Read Tutorial
+          
