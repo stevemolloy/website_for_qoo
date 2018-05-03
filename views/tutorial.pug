@@ -1,12 +1,15 @@
 extends header_footer_main
 
 include includes/tutorial/mixin_newcard.pug
+include includes/mixin_jumbotron.pug
 
 block main_content
-  div.container
-    div.card-columns
-      include includes/tutorial/beaglebone_prep.pug
-      include includes/tutorial/shiftrio.pug
-      include includes/tutorial/test_device.pug
-      include includes/tutorial/nodered_controller.pug
-      include includes/tutorial/nodered_webapp.pug
+  main(role="main")
+    +add_jumbotron
+    div.container
+      div.card-columns
+        include includes/tutorial/beaglebone_prep.pug
+        include includes/tutorial/shiftrio.pug
+        include includes/tutorial/test_device.pug
+        include includes/tutorial/nodered_controller.pug
+        include includes/tutorial/nodered_webapp.pug

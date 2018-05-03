@@ -1,4 +1,7 @@
 extends header_footer_main
 
+include includes/mixin_jumbotron.pug
+
 block main_content
-  
+  main(role="main")
+    +add_jumbotron

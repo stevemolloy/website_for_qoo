@@ -1,39 +1,43 @@
 extends header_footer_main
 
-block main_content
-  section(id="contact")
-    div.container
-      h3.text-center.text-uppercase contact us
-      p.text-center.w-75.m-auto.
-        We are an organisation whose primary tasks are maintenance and development 
-        of the Qoonet control architecture. Please use the following to get in 
-        touch.
+include includes/mixin_jumbotron.pug
 
-      div.row.justify-content-center
-        div.col-sm-12.col-md-6.col-lg-3.my-5
-          div.card.border-0
-            div.card-body.text-center
-              i.fas.fa-at.fa-5x.mb-3(aria-hidden="true")
-              h4.text-uppercase.mb-5 mail
-              p
-                a(href='mailto:david.mcginnis@thequantumguys.se') david.mcginnis@thequantumguys.se
-        div.col-sm-12.col-md-6.col-lg-3.my-5
-          div.card.border-0
-            div.card-body.text-center
-              i.fab.fa-github.fa-5x.mb-3(aria-hidden="true")
-              h4.text-uppercase.mb-5 projects
-              p
-                a(href='https://github.com/QooNet') https://github.com/QooNet
-        div.col-sm-12.col-md-6.col-lg-3.my-5
-          div.card.border-0
-            div.card-body.text-center
-              i.fa.fa-map-marker.fa-5x.mb-3(aria-hidden="true")
-              h4.text-uppercase.mb-5 real-world
-              address Lund, Sweden
-        div.col-sm-12.col-md-6.col-lg-3.my-5
-          div.card.border-0
-            div.card-body.text-center
-              i.fa.fa-globe.fa-5x.mb-3(aria-hidden="true")
-              h4.text-uppercase.mb-5 web
-              p
-                a(href='http://qoonet.org') http://qoonet.org
+block main_content
+  main(role="main")
+    +add_jumbotron
+    section(id="contact")
+      div.container
+        h3.text-center.text-uppercase contact us
+        p.text-center.w-75.m-auto.
+          We are an organisation whose primary tasks are maintenance and development 
+          of the Qoonet control architecture. Please use the following to get in 
+          touch.
+
+        div.row.justify-content-center
+          div.col-sm-12.col-md-6.col-lg-3.my-5
+            div.card.border-0
+              div.card-body.text-center
+                i.fas.fa-at.fa-5x.mb-3(aria-hidden="true")
+                h4.text-uppercase.mb-5 mail
+                p
+                  a(href='mailto:david.mcginnis@thequantumguys.se') david.mcginnis@thequantumguys.se
+          div.col-sm-12.col-md-6.col-lg-3.my-5
+            div.card.border-0
+              div.card-body.text-center
+                i.fab.fa-github.fa-5x.mb-3(aria-hidden="true")
+                h4.text-uppercase.mb-5 projects
+                p
+                  a(href='https://github.com/QooNet') https://github.com/QooNet
+          div.col-sm-12.col-md-6.col-lg-3.my-5
+            div.card.border-0
+              div.card-body.text-center
+                i.fa.fa-map-marker.fa-5x.mb-3(aria-hidden="true")
+                h4.text-uppercase.mb-5 real-world
+                address Lund, Sweden
+          div.col-sm-12.col-md-6.col-lg-3.my-5
+            div.card.border-0
+              div.card-body.text-center
+                i.fa.fa-globe.fa-5x.mb-3(aria-hidden="true")
+                h4.text-uppercase.mb-5 web
+                p
+                  a(href='http://qoonet.org') http://qoonet.org
