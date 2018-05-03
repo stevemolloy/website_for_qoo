@@ -1,5 +1,8 @@
-mixin add_jumbotron
+mixin add_jumbotron(title)
   div.jumbotron.jumbotron-fluid
     div.container
-      h1.display-4 Qoonet
+      if title
+        h1.display-4= 'Qoonet: ' +title
+      else
+        h1.display-4 Qoonet
       p.lead An Open Source IoT Control System
