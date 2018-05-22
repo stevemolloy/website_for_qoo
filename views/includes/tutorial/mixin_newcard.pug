@@ -1,6 +1,6 @@
 mixin make_card(heading, title, maintext, imgfile, urllink)
   - var d = "location.href='" + urllink + "';"
-  div(onclick=d).card
+  div(onclick=d).card.hoverDiv
     h3.card-header= heading
     img.card-img-top(src=imgfile, alt="NodeRed")
     div.card-body

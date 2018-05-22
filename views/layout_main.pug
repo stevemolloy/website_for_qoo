@@ -9,12 +9,13 @@ html
     link(rel='stylesheet', href='stylesheets/contacts.css')
     link(rel='stylesheet', href='stylesheets/carousel.css')
     script(defer, src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous")
-      
+
   body
     block content
-      
+
     script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js", integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo", crossorigin="anonymous")
     script(src="javascripts/snippet.js")
     script(src="javascripts/popper.min.js")
     script(src="javascripts/bootstrap.min.js")
     script(src="javascripts/holder.min.js")
+    script $(document).ready(function(){$(".hoverDiv").hover(function(){$(this).css("background", "#eee");}, function(){$(this).css("background", "#fff");});});
