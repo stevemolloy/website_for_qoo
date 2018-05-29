@@ -1,0 +1,19 @@
+extends header_footer_main
+
+include includes/mixin_jumbotron.pug
+
+block main_content
+  main(role="main")
+    +add_jumbotron('Setting up a BeagleBone Black')
+    div.container
+      p.
+        For a long time the BeagleBone Black (BBB) served as the work-horse of QooNet, 
+        and so our tutorials are based around that. This means that the first thing
+        we have to do is to get our BBB working.
+      p.
+        That's what we'll be doing here. There are several steps to follow, so 
+        let's get started.
+      h1 Unboxing
+      p.
+        The following are good practice when starting to use a BeagleBone Black, and 
+        are not specific to a QooNet installation.
