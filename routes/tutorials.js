@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('tutorial');
 });
 
-router.get('/setup_BBB', function(req, res, next) {
-  res.render('setup_BBB');
+router.get('/setup_rpi', function(req, res, next) {
+  res.render('setup_rpi');
 });
 
 module.exports = router;

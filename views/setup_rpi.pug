@@ -1,0 +1,33 @@
+extends header_footer_main
+
+include includes/mixin_jumbotron.pug
+
+block main_content
+  main(role="main")
+    +add_jumbotron('Setting up a Raspberry Pi')
+    div.container
+      p.
+        For a long time the Raspberry Pi has served as the work-horse of QooNet, 
+        and so our tutorials are based around that. This means that the first thing
+        we have to do is to get our Pi working.
+      p.
+        In the following, we will assume that you are using a Linux-based system. 
+        Instructions for Windows and Mac will appear soon.
+      p.
+        Roughly speaking, there are two parts to setting up a Raspberry Pi.  Putting 
+        the operating system image onto the Pi's SD card, and then connecting 
+        to the Pi from your own computer. 
+
+      h1 Installing an operating system
+      p.
+        In the following, we'll download an operating system image, burn it to an 
+        SD card, and get ready to connect to it from your computer.
+      h2 Download the zip-file
+      p.
+        Get the latest Raspberry Pi image by downloading it from 
+        <a href="https://downloads.raspberrypi.org/raspbian_latest">here</a>, and 
+        unziping it.
+      h2 Burn it to an SD card
+      p.
+        blah
+        
